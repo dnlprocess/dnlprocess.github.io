@@ -1,7 +1,39 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import { base44 } from '@/api/base44Client';
 import { appParams } from '@/lib/app-params';
-import { createAxiosClient } from '@base44/sdk/dist/utils/axios-client';
+
+// Minimal replacement for the SDK's axios helper. Uses `fetch` and throws
+// an error shaped similarly to what the code expects (with `.status` and
+// `.data`) so existing error handling remains functional.
+const createAxiosClient = ({ baseURL = '', headers = {}, token } = {}) => {
+  return {
+    get: async (path) => {
+      const url = `${baseURL}${path}`;
+      const reqHeaders = { ...headers };
+      if (token) {
+        reqHeaders['Authorization'] = `Bearer ${token}`;
+      }
+
+      const res = await fetch(url, { headers: reqHeaders });
+      const text = await res.text();
+      let data = null;
+      try {
+        data = text ? JSON.parse(text) : null;
+      } catch (e) {
+        data = text;
+      }
+
+      if (!res.ok) {
+        const err = new Error(res.statusText || 'Request failed');
+        err.status = res.status;
+        err.data = data;
+        throw err;
+      }
+
+      return data;
+    }
+  };
+};
 
 const AuthContext = createContext();
 

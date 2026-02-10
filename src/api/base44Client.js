@@ -1,14 +1,30 @@
-import { createClient } from '@base44/sdk';
-import { appParams } from '@/lib/app-params';
+// Lightweight stub for `base44` used by the app.
+// This removes the runtime dependency on @base44/sdk while preserving
+// the minimal interface the pages expect. Methods return promises so
+// existing `useQuery` calls continue to work and render empty results.
 
-const { appId, token, functionsVersion, appBaseUrl } = appParams;
-
-//Create a client with authentication required
-export const base44 = createClient({
-  appId,
-  token,
-  functionsVersion,
-  serverUrl: '',
-  requiresAuth: false,
-  appBaseUrl
-});
+export const base44 = {
+  entities: {
+    Project: {
+      list: async (_order, _limit) => [],
+      filter: async (_query, _order, _limit) => [],
+    },
+    Photo: {
+      list: async (_order, _limit) => [],
+      filter: async (_query, _order, _limit) => [],
+    },
+    BlogPost: {
+      list: async (_order, _limit) => [],
+      filter: async (_query, _order, _limit) => [],
+    },
+    SiteSettings: {
+      list: async (_order, _limit) => [],
+      filter: async (_query, _order, _limit) => [],
+    },
+  },
+  auth: {
+    me: async () => null,
+    logout: (_redirectUrl) => {},
+    redirectToLogin: (_redirectUrl) => {},
+  },
+};
