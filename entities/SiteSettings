@@ -1,0 +1,29 @@
+{
+  "name": "SiteSettings",
+  "type": "object",
+  "properties": {
+    "site_name": {
+      "type": "string",
+      "description": "Name displayed in the header"
+    },
+    "bio": {
+      "type": "string",
+      "description": "About/bio text"
+    },
+    "email": {
+      "type": "string",
+      "description": "Contact email"
+    },
+    "instagram": {
+      "type": "string",
+      "description": "Instagram handle"
+    },
+    "location": {
+      "type": "string",
+      "description": "Based in location"
+    }
+  },
+  "required": [
+    "site_name"
+  ]
+}

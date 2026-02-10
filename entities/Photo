@@ -1,0 +1,38 @@
+{
+  "name": "Photo",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the photograph"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "URL of the photograph"
+    },
+    "project": {
+      "type": "string",
+      "description": "Project/collection this photo belongs to"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location where the photo was taken"
+    },
+    "year": {
+      "type": "number",
+      "description": "Year the photo was taken"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the photograph"
+    },
+    "order": {
+      "type": "number",
+      "description": "Display order"
+    }
+  },
+  "required": [
+    "title",
+    "image_url"
+  ]
+}

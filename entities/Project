@@ -1,0 +1,34 @@
+{
+  "name": "Project",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the project"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly identifier"
+    },
+    "cover_image": {
+      "type": "string",
+      "description": "Cover image URL for the project"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the project"
+    },
+    "year": {
+      "type": "string",
+      "description": "Year or date range"
+    },
+    "order": {
+      "type": "number",
+      "description": "Display order"
+    }
+  },
+  "required": [
+    "title",
+    "slug"
+  ]
+}

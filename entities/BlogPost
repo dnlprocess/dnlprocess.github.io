@@ -1,0 +1,36 @@
+{
+  "name": "BlogPost",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the blog post"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly identifier"
+    },
+    "content": {
+      "type": "string",
+      "description": "Main content of the blog post"
+    },
+    "excerpt": {
+      "type": "string",
+      "description": "Short excerpt for previews"
+    },
+    "cover_image": {
+      "type": "string",
+      "description": "Cover image URL"
+    },
+    "published": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether the post is published"
+    }
+  },
+  "required": [
+    "title",
+    "slug",
+    "content"
+  ]
+}
