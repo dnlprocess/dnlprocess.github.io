@@ -43,7 +43,7 @@ export default function Info() {
               <p className="text-[#8a8a8a]">
                 My name is Daniel Lipshitz, and I am currently a senior visiting student studying Math at Columbia University. My interests lie in Mathematical Physics and Enumerative Geometry.
                 Outside of math, I enjoy hiking/photography and cooking, and when I can, I trade the chalkboard and psets for climbing chalk and bouldering problems.
-                On this site, you’ll find my photography, mathematical writings, and general musings.
+                On this site, you’ll find my photography, mathematical writings, recipes, and general musings.
               </p>
             )}
           </div>
