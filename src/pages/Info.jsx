@@ -41,7 +41,9 @@ export default function Info() {
               ))
             ) : (
               <p className="text-[#8a8a8a]">
-                Welcome to my photography portfolio. Here you'll find a collection of my work capturing landscapes, nature, and the quiet beauty of the world around us.
+                My name is Daniel Lipshitz, and I am currently a senior visiting student studying Math at Columbia University. My interests lie in Mathematical Physics and Enumerative Geometry.
+                Outside of math, I enjoy hiking/photography and cooking, and when I can, I trade the chalkboard and psets for climbing chalk and bouldering problems.
+                On this site, you’ll find my photography, mathematical writings, and general musings.
               </p>
             )}
           </div>
@@ -91,10 +93,10 @@ export default function Info() {
           {/* Availability */}
           <div className="mt-12 pt-8 border-t border-[#e0e0de]">
             <h3 className="text-[10px] tracking-[0.2em] text-[#8a8a8a] uppercase mb-3">
-              Availability
+              Email
             </h3>
             <p className="text-sm text-[#3a3a3a]">
-              Available for commissions, collaborations, and licensing inquiries.
+              Feel free to email me: daniel [at] lipshitz [dot] com
             </p>
           </div>
         </motion.div>
