@@ -3,6 +3,9 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Use relative base so built assets load correctly on GitHub Pages
+  // (works for project pages and user pages when served from `/`).
+  base: './',
   logLevel: 'error', // Suppress warnings, only show errors
   resolve: {
     alias: {
