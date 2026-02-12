@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build:content": "node ./scripts/csv-to-json.js",
-    "build": "npm run build:content && vite build",
+    "generate:content": "node ./scripts/generate-content.js",
+    "build": "npm run generate:content && vite build",
     "lint": "eslint . --quiet",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc -p ./jsconfig.json",
