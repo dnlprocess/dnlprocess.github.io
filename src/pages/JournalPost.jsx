@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { format } from 'date-fns';
 import ReactMarkdown from 'react-markdown';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
 
 export default function JournalPost() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -106,7 +109,7 @@ export default function JournalPost() {
             prose-blockquote:border-l-[#d0d0d0] prose-blockquote:text-[#5a5a5a]
           "
         >
-          <ReactMarkdown>{post.content}</ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkMath]} rehypePlugins={[rehypeKatex]}>{post.content}</ReactMarkdown>
         </motion.div>
       </article>
     </div>

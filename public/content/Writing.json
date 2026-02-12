@@ -1,0 +1,32 @@
+[
+  {
+    "title": "On the Beauty of Euler's Identity",
+    "slug": "eulers-identity",
+    "content": "There's a certain elegance to mathematics that reveals itself in unexpected places. Perhaps nowhere is this more apparent than in Euler's identity:\n\n$$e^{i\\pi} + 1 = 0$$\n\nThis single equation connects five of the most fundamental constants in mathematics: $e$, $i$, $\\pi$, $1$, and $0$.\n\n## The Components\n\nLet's briefly consider each element:\n\n- $e \\approx 2.71828...$ — the base of natural logarithms\n- $i = \\sqrt{-1}$ — the imaginary unit\n- $\\pi \\approx 3.14159...$ — the ratio of circumference to diameter\n- $1$ — the multiplicative identity\n- $0$ — the additive identity\n\n## Why It Works\n\nThe identity emerges from Euler's formula:\n\n$$e^{ix} = \\cos(x) + i\\sin(x)$$\n\nWhen we substitute $x = \\pi$:\n\n$$e^{i\\pi} = \\cos(\\pi) + i\\sin(\\pi) = -1 + 0i = -1$$\n\nTherefore, $e^{i\\pi} + 1 = 0$.\n\nThere's something profound about how these seemingly unrelated constants conspire to produce such a clean result.",
+    "excerpt": "Exploring the elegance of mathematics through one of its most beautiful equations.",
+    "category": "math",
+    "cover_image": "",
+    "published": "true",
+    "id": "698ab772e7f1f783467ff433",
+    "created_date": "2026-02-10T04:43:30.739000",
+    "updated_date": "2026-02-10T04:43:30.739000",
+    "created_by_id": "698ab4c2a53a66660afe6db3",
+    "created_by": "danielthemanyl3@gmail.com",
+    "is_sample": "false"
+  },
+  {
+    "title": "Thoughts on Minimalism in Design",
+    "slug": "minimalism-design",
+    "content": "The Japanese concept of *ma* (間) refers to the space between things—the pause, the negative space, the silence. In design, what we choose to leave out often matters more than what we include.\n\n## The Principle of Reduction\n\nEvery element should earn its place. If removing something doesn't diminish the whole, it probably shouldn't be there.\n\nThis applies beyond visual design:\n- In writing, unnecessary words dilute meaning\n- In photography, cluttered compositions lose focus\n- In code, complexity breeds bugs\n\n## Breathing Room\n\nWhite space isn't empty—it's active. It guides the eye, creates hierarchy, and allows ideas to resonate.\n\nThe goal isn't austerity for its own sake, but clarity. Removing the unnecessary to reveal the essential.",
+    "excerpt": "On the value of negative space and intentional restraint.",
+    "category": "ideas",
+    "cover_image": "",
+    "published": "true",
+    "id": "698ab772e7f1f783467ff434",
+    "created_date": "2026-02-10T04:43:30.739000",
+    "updated_date": "2026-02-10T04:43:30.739000",
+    "created_by_id": "698ab4c2a53a66660afe6db3",
+    "created_by": "danielthemanyl3@gmail.com",
+    "is_sample": "false"
+  }
+]
