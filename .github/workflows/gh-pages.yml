@@ -2,6 +2,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
+# Grant the workflow permission to push the generated site branch.
+permissions:
+  contents: write
+  pages: write
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
