@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Simple Pasta Aglio e Olio",
+    "slug": "pasta-aglio-olio",
+    "description": "A classic Roman pasta that proves the best dishes often have the fewest ingredients.",
+    "cover_image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=1200",
+    "prep_time": "5 min",
+    "cook_time": "15 min",
+    "servings": "2",
+    "ingredients": "- 200g spaghetti\n- 4 cloves garlic, thinly sliced\n- 1/3 cup good olive oil\n- 1/2 tsp red pepper flakes\n- Fresh parsley, chopped\n- Parmesan (optional)\n- Salt to taste",
+    "instructions": "1. Bring a large pot of salted water to boil. Cook pasta until just al dente, reserving 1 cup pasta water before draining.\n\n2. While pasta cooks, heat olive oil in a large pan over medium-low heat. Add sliced garlic and cook slowly until golden (not brown), about 3-4 minutes.\n\n3. Add red pepper flakes, cook 30 seconds.\n\n4. Add drained pasta and 1/4 cup pasta water. Toss vigorously to emulsify.\n\n5. Add parsley, adjust salt, and serve immediately with parmesan if desired.",
+    "notes": "The key is cooking the garlic low and slow—golden, never brown. The pasta water helps create a silky sauce.",
+    "published": "true",
+    "id": "698ab772e7f1f783467ff435",
+    "created_date": "2026-02-10T04:43:30.748000",
+    "updated_date": "2026-02-10T04:43:30.748000",
+    "created_by_id": "698ab4c2a53a66660afe6db3",
+    "created_by": "danielthemanyl3@gmail.com",
+    "is_sample": "false"
+  },
+  {
+    "title": "Miso Glazed Salmon",
+    "slug": "miso-glazed-salmon",
+    "description": "Sweet, savory, and incredibly simple. The miso creates a beautiful caramelized crust.",
+    "cover_image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=1200",
+    "prep_time": "10 min",
+    "cook_time": "12 min",
+    "servings": "2",
+    "ingredients": "- 2 salmon fillets\n- 2 tbsp white miso paste\n- 1 tbsp mirin\n- 1 tbsp sake or rice wine\n- 1 tsp sugar\n- Sesame seeds for garnish\n- Green onions, sliced",
+    "instructions": "1. Mix miso, mirin, sake, and sugar until smooth.\n\n2. Coat salmon fillets with the miso mixture. Let marinate 30 minutes (or overnight in fridge).\n\n3. Preheat oven to 400°F (200°C).\n\n4. Place salmon on a lined baking sheet. Bake 10-12 minutes until glaze caramelizes and fish flakes easily.\n\n5. Garnish with sesame seeds and green onions.",
+    "notes": "Watch carefully under the broiler at the end if you want extra caramelization—the sugars can burn quickly.",
+    "published": "true",
+    "id": "698ab772e7f1f783467ff436",
+    "created_date": "2026-02-10T04:43:30.748000",
+    "updated_date": "2026-02-10T04:43:30.748000",
+    "created_by_id": "698ab4c2a53a66660afe6db3",
+    "created_by": "danielthemanyl3@gmail.com",
+    "is_sample": "false"
+  }
+]
