@@ -90,15 +90,15 @@ export default function Info() {
             )}
           </div>
 
-          {/* Availability */}
-          <div className="mt-12 pt-8 border-t border-[#e0e0de]">
+          {/* Availability 
+           <div className="mt-12 pt-8 border-t border-[#e0e0de]">
             <h3 className="text-[10px] tracking-[0.2em] text-[#8a8a8a] uppercase mb-3">
               Email
             </h3>
             <p className="text-sm text-[#3a3a3a]">
               Feel free to email me: daniel [at] lipshitz [dot] com
             </p>
-          </div>
+          </div>*/}
         </motion.div>
       </div>
 

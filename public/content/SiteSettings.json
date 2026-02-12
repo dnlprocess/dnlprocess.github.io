@@ -2,14 +2,14 @@
   {
     "site_name": "Portfolio",
     "bio": "My name is Daniel Lipshitz, and I am currently a senior visiting student studying Math at Columbia University. My interests lie in Mathematical Physics and Enumerative Geometry.\nOutside of math, I enjoy hiking/photography and cooking, and when I can, I trade the chalkboard and psets for climbing chalk and bouldering problems.\nOn this site, you’ll find my photography, mathematical writings, recipes, and general musings.",
-    "email": "hello@example.com",
-    "instagram": "@photographer",
-    "location": "Pacific Northwest",
+    "email": "daniel@lipshitz.com",
+    //"instagram": "@photographer",
+    //"location": "Pacific Northwest",
     "id": "698ab57096fb92772053a237",
     "created_date": "2026-02-10T04:34:56.954000",
     "updated_date": "2026-02-10T04:34:56.954000",
     "created_by_id": "698ab4c2a53a66660afe6db3",
-    "created_by": "danielthemanyl3@gmail.com",
+    "created_by": "daniel@lipshitz.com",
     "is_sample": "false"
   }
 ]
