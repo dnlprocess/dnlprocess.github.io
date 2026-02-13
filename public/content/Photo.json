@@ -1,7 +1,7 @@
 [
   {
-    "title": "DSC 3189",
-    "image_url": "./photos/The%20Coast/DSC_3189.jpg",
+    "title": " DSC7871",
+    "image_url": "./photos/The%20Coast/_DSC7871.jpg",
     "project": "The Coast",
     "location": "",
     "year": "",
@@ -9,18 +9,81 @@
     "order": 1
   },
   {
-    "title": "DSC 3824 Enhanced NR 3",
-    "image_url": "./photos/The%20Coast/DSC_3824-Enhanced-NR-3.jpg",
-    "project": "The Coast",
+    "title": "DSC 6815 2",
+    "image_url": "./photos/The%20Desert/DSC_6815-2.jpg",
+    "project": "The Desert",
+    "location": "",
+    "year": "",
+    "description": "",
+    "order": 1
+  },
+  {
+    "title": " DSC2959",
+    "image_url": "./photos/The%20Desert/_DSC2959.jpg",
+    "project": "The Desert",
     "location": "",
     "year": "",
     "description": "",
     "order": 2
   },
   {
-    "title": "DSC 4160",
-    "image_url": "./photos/The%20Coast/DSC_4160.jpg",
-    "project": "The Coast",
+    "title": " DSC2968",
+    "image_url": "./photos/The%20Desert/_DSC2968.jpg",
+    "project": "The Desert",
+    "location": "",
+    "year": "",
+    "description": "",
+    "order": 3
+  },
+  {
+    "title": "DSC 4270",
+    "image_url": "./photos/The%20Forest/DSC_4270.jpg",
+    "project": "The Forest",
+    "location": "",
+    "year": "",
+    "description": "",
+    "order": 1
+  },
+  {
+    "title": " DSC6237",
+    "image_url": "./photos/The%20Forest/_DSC6237.jpg",
+    "project": "The Forest",
+    "location": "",
+    "year": "",
+    "description": "",
+    "order": 2
+  },
+  {
+    "title": " DSC8104",
+    "image_url": "./photos/The%20Forest/_DSC8104.jpg",
+    "project": "The Forest",
+    "location": "",
+    "year": "",
+    "description": "",
+    "order": 3
+  },
+  {
+    "title": " DSC4608",
+    "image_url": "./photos/The%20Street/_DSC4608.jpg",
+    "project": "The Street",
+    "location": "",
+    "year": "",
+    "description": "",
+    "order": 1
+  },
+  {
+    "title": " DSC7990",
+    "image_url": "./photos/The%20Street/_DSC7990.jpg",
+    "project": "The Street",
+    "location": "",
+    "year": "",
+    "description": "",
+    "order": 2
+  },
+  {
+    "title": " DSC8565",
+    "image_url": "./photos/The%20Street/_DSC8565.jpg",
+    "project": "The Street",
     "location": "",
     "year": "",
     "description": "",

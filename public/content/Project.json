@@ -6,5 +6,29 @@
     "description": "",
     "year": "",
     "order": 0
+  },
+  {
+    "title": "The Desert",
+    "slug": "the-desert",
+    "cover_image": "./photos/The%20Desert/DSC_6815-2.jpg",
+    "description": "",
+    "year": "",
+    "order": 0
+  },
+  {
+    "title": "The Forest",
+    "slug": "the-forest",
+    "cover_image": "./photos/The%20Forest/DSC_4270.jpg",
+    "description": "",
+    "year": "",
+    "order": 0
+  },
+  {
+    "title": "The Street",
+    "slug": "the-street",
+    "cover_image": "./photos/The%20Street/_DSC4608.jpg",
+    "description": "",
+    "year": "",
+    "order": 0
   }
 ]
