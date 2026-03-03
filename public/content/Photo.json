@@ -1,7 +1,7 @@
 [
   {
-    "title": " DSC7871",
-    "image_url": "./photos/The%20Coast/_DSC7871.jpg",
+    "title": "Moonrise at Sea",
+    "image_url": "./photos/The%20Coast/Moonrise%20at%20Sea.jpg",
     "project": "The Coast",
     "location": "",
     "year": "",
@@ -9,8 +9,35 @@
     "order": 1
   },
   {
-    "title": "DSC 6815 2",
-    "image_url": "./photos/The%20Desert/DSC_6815-2.jpg",
+    "title": "Morning",
+    "image_url": "./photos/The%20Coast/Morning.jpeg",
+    "project": "The Coast",
+    "location": "",
+    "year": "",
+    "description": "",
+    "order": 2
+  },
+  {
+    "title": "Overlook",
+    "image_url": "./photos/The%20Coast/Overlook.jpg",
+    "project": "The Coast",
+    "location": "",
+    "year": "",
+    "description": "",
+    "order": 3
+  },
+  {
+    "title": "Wall",
+    "image_url": "./photos/The%20Coast/Wall.jpg",
+    "project": "The Coast",
+    "location": "",
+    "year": "",
+    "description": "",
+    "order": 4
+  },
+  {
+    "title": "Nautilus",
+    "image_url": "./photos/The%20Desert/Nautilus.jpeg",
     "project": "The Desert",
     "location": "",
     "year": "",
@@ -18,8 +45,8 @@
     "order": 1
   },
   {
-    "title": " DSC2959",
-    "image_url": "./photos/The%20Desert/_DSC2959.jpg",
+    "title": "Red and Pink",
+    "image_url": "./photos/The%20Desert/Red%20and%20Pink.jpg",
     "project": "The Desert",
     "location": "",
     "year": "",
@@ -27,8 +54,8 @@
     "order": 2
   },
   {
-    "title": " DSC2968",
-    "image_url": "./photos/The%20Desert/_DSC2968.jpg",
+    "title": "Two Rocks",
+    "image_url": "./photos/The%20Desert/Two%20Rocks.jpg",
     "project": "The Desert",
     "location": "",
     "year": "",
@@ -36,8 +63,8 @@
     "order": 3
   },
   {
-    "title": "DSC 4270",
-    "image_url": "./photos/The%20Forest/DSC_4270.jpg",
+    "title": "Desert Forest",
+    "image_url": "./photos/The%20Forest/Desert%20Forest.jpg",
     "project": "The Forest",
     "location": "",
     "year": "",
@@ -45,8 +72,8 @@
     "order": 1
   },
   {
-    "title": " DSC6237",
-    "image_url": "./photos/The%20Forest/_DSC6237.jpg",
+    "title": "Miasma",
+    "image_url": "./photos/The%20Forest/Miasma.jpg",
     "project": "The Forest",
     "location": "",
     "year": "",
@@ -54,39 +81,12 @@
     "order": 2
   },
   {
-    "title": " DSC8104",
-    "image_url": "./photos/The%20Forest/_DSC8104.jpg",
-    "project": "The Forest",
-    "location": "",
-    "year": "",
-    "description": "",
-    "order": 3
-  },
-  {
-    "title": " DSC4608",
-    "image_url": "./photos/The%20Street/_DSC4608.jpg",
+    "title": "Towards or Away",
+    "image_url": "./photos/The%20Street/Towards%20or%20Away.jpg",
     "project": "The Street",
     "location": "",
     "year": "",
     "description": "",
     "order": 1
-  },
-  {
-    "title": " DSC7990",
-    "image_url": "./photos/The%20Street/_DSC7990.jpg",
-    "project": "The Street",
-    "location": "",
-    "year": "",
-    "description": "",
-    "order": 2
-  },
-  {
-    "title": " DSC8565",
-    "image_url": "./photos/The%20Street/_DSC8565.jpg",
-    "project": "The Street",
-    "location": "",
-    "year": "",
-    "description": "",
-    "order": 3
   }
 ]
